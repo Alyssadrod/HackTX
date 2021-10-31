@@ -72,7 +72,7 @@
     line-height: 25px;
 }
 button{
-    width: 200px;
+    width: 200px;    
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
@@ -97,10 +97,13 @@ span{
     z-index: -1;
     transition: 0.5s;
 }
-/* hover effect */
+
+ /* hover effect */
 button:hover span{
     width: 100%;
 }
+
 button:hover{
     border: none;
+    padding: 17px;
 }
